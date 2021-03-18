@@ -1,0 +1,33 @@
+Package: com.yourepo.changec0vers.sileo
+Version: 2.0.2-9-1
+Architecture: iphoneos-arm
+Maintainer: DylbinTheDev
+Filename: /debs/Sileo.deb
+Size: 4528476
+MD5sum: f5c76c2b876dafb152ee2d6712074054
+SHA1: 2c41c5a1bb23aa8aa44ca47f1fa76dd44ccd6c0f
+SHA256: cc6407ed492f5326a03b2068657399bc46c621c33bcf02b23348e752671760d5
+Section: Packaging
+Description: An APT client for iOS 11 and higher.
+Conflicts: cydia-gui (<< 99.0), com.yourepo.changec0vers.sileo-clean
+Depends: apt (>= 1.8.0), libapt (>= 1.8.2.1), libapt-pkg5.0 (>= 1.8.2.1), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), zsh | bash, cy+cpu.arm64, firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils, com.yourepo.shrubby.sileocompatibilitylayer
+Pre-Depends: debianutils, dpkg (>= 1.19)
+Author: Sileo Team
+Name: Sileo
+
+Package: com.yourepo.shrubby.sileocompatibilitylayer
+Version: 2.02-9-1
+Maintainer: SileoInstaller
+Section: Tweaks
+Description: Compatibility layer for Sileo/unc0ver
+Author: Tanner Ridenour & some whiskey
+Name: Sileo Compatibility Layer
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: /debs/Sileo.deb
+Size: 958
+MD5sum: 698eb81fa7f67d65c8d06176ba53df90
+SHA1: 773e84342c10f6fa090fbc2542d62d65e62c2180
+SHA256: 83bb591285ab57894e5b2c868572b77779a45d01a65d9b42ec99e26519555c4f
+Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo
+
